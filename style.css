@@ -1,0 +1,207 @@
+body {
+    font-family: 'Montserrat';
+padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-navbar{
+  list-style: none; /*removes bullet points*/
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  padding: 10px 10px 10px 10px;
+  background-color:#CC6666;
+  border-radius: 3.5px;
+}
+
+nav li{
+  display: flex;
+  padding-right: 50px;
+  color: white;
+}
+nav li a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+
+.hero-img{
+  background-image: url("https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-26885.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.title{
+  font-size: 4.5rem;
+  text-align: center;
+  color: black;
+}
+.indexp {
+  transition:2.5s;
+  border:5px solid white;
+}
+h1{
+  text-align: center;
+}
+
+
+h2{
+  text-align: center;
+}
+.pic{
+  width: 500px;
+  height: auto;
+}
+
+.home-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+/* Footer */
+
+footer{
+ display:flex;
+ justify-content: space-around;
+  background:#CC6666;
+  border-radius:4.5px;
+}
+
+.fa {
+  margin: 1px 7px 1px 7px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/* Food Menu */
+ .first-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.card button{
+  border: none;
+  outline: 0;
+  height: 12px;
+  color: white;
+  background-color: #CC4949;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  padding: 3% 0 6% 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+.card img{
+  width:100%
+}
+
+
+/* Contact page */
+.hero-img2{
+  background-image: url("https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-26880.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+form {
+  max-width:420px;
+  margin:50px auto;
+     }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  width: 97%;
+  margin-bottom: 15px;
+  outline:0;
+}
+
+.feedback-input:focus {
+  border:2px solid #CC4949; } /*color of border focusing on*/
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.submit {
+  font-family: 'Montserrat';
+  width: 99%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  font-weight:700;
+}
+.submit:hover { background:#CC4949; }
